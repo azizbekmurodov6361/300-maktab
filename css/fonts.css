@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('../fonts/Nunito-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraBold';
+    src: url('../fonts/Nunito-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito-Medium';
+    src: url('../fonts/Nunito-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url('../fonts/Nunito-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito-SemiBold';
+    src: url('../fonts/Nunito-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'DMSans-Bold';
+    src: url('../fonts/DMSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'DMSans-ExtraBold';
+    src: url('../fonts/DMSans-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'DMSans-Medium';
+    src: url('../fonts/DMSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url('../fonts/DMSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'DMSans-SemiBold';
+    src: url('../fonts/DMSans-SemiBold.ttf');
+}
+
+:root {
+    --bold: 'Nunito-Bold', sans-serif;
+    --extrabold: 'Nunito-ExtraBold', sans-serif;
+    --medium: 'Nunito-Medium', sans-serif;
+    --regular: 'Nunito-Regular', sans-serif;
+    --semibold: 'Nunito-SemiBold', sans-serif;
+
+    --bold-dm: 'DMSans-Bold', sans-serif;
+    --extrabold-dm: 'DMSans-ExtraBold', sans-serif;
+    --medium-dm: 'DMSans-Medium', sans-serif;
+    --regular-dm: 'DMSans-Regular', sans-serif;
+    --semibold-dm: 'DMSans-SemiBold', sans-serif;
+}
+
+
+body {
+    font-family: var(--regular);
+}
+
+h1 {
+    font-family: var(--bold);
+}
+
+h2 {
+    font-family: var(--extrabold);
+}
+
+p {
+    font-family: var(--medium);
+}
+
+strong {
+    font-family: var(--semibold);
+}
+
+a{
+    font-family: var(--medium);
+}
